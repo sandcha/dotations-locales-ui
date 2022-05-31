@@ -11,14 +11,12 @@ const config = {
       precompress: true,
     }),
 
-    // hydrate the <div id="svelte"> element in src/app.html
-    target: "#svelte",
-
     vite: {
       build: {
         // Size of chunks increased to 3 MB, to be able to import JSON files (reduce ?).
         chunkSizeWarningLimit: 3072,
       },
+
       ssr: {
         noExternal: ["d3-scale"],
       },
