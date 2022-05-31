@@ -16,6 +16,18 @@
 </main>
 
 <style>
+  @font-face{
+    font-family: 'Marianne-Regular';
+    src: url('/fonts/Marianne-Regular.woff') format('woff');
+    src: url('/fonts/Marianne-Regular.woff2') format('woff2');
+  }
+
+  @font-face{
+    font-family: 'Marianne-Bold';
+    src: url('/fonts/Marianne-Bold.woff') format('woff');
+    src: url('/fonts/Marianne-Bold.woff2') format('woff2');
+  }
+
   /* 📁 Contenant technique - En-tête */
   nav {
     /* Auto layout */
@@ -35,9 +47,11 @@
     flex: none;
     order: 0;
     flex-grow: 1;
+
+    font-family: Marianne-Regular
   }
 
   ul {
-    list-style-image: url("icone-fleche-droite.svg");
+    list-style-image: url("picto-fleche-droite.svg");
   }
 </style>
