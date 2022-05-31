@@ -1,0 +1,20 @@
+{
+  "name": "dotations-locales-ui",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "svelte-kit build",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "dev": "svelte-kit dev",
+    "format": "prettier --write --plugin-search-dir=. .",
+    "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "preview": "svelte-kit preview"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "type": "module"
+}
