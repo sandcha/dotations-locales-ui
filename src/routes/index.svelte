@@ -24,6 +24,10 @@
 </main>
 
 <style>
+  main {
+    overflow-y: auto;
+  }
+
   section {
     /* SECTION */
     box-sizing: border-box;
