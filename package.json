@@ -14,7 +14,11 @@
 
   },
   "devDependencies": {
-
+    "d3-scale": "^4.0.0",
+    "@sveltejs/adapter-node": "^1.0.0-next.73",
+    "@sveltejs/kit": "^1.0.0-next.334",
+    "svelte": "^3.39.0",
+    "svelte-preprocess": "^4.6.9"
   },
   "type": "module"
 }
