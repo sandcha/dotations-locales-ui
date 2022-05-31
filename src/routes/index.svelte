@@ -7,18 +7,18 @@
 
 <main>
   <section>
-    <p>Rechercher votre collectivité</p>
+    <p id="recherche">Rechercher votre collectivité</p>
     <div id="recherche">
       <div id="quoi">
-        <textarea value="Chauffailles" />
+        <div id="saisie">Chauffailles</div> 
+        <hr />
       </div>
       <div id="button">
         <button>
           <p id="button">Rechercher</p>
         </button>
       </div>
-      <hr />
-    </div>
+    </div>  
     <p id="detail-recherche">détail recherche</p>
   </section>
 </main>
@@ -45,7 +45,7 @@
     flex-grow: 0;
   }
 
-  p {
+  p#recherche {
     /* Rechercher votre collectivité */
 
     width: 560px;
@@ -112,14 +112,13 @@
     flex-grow: 1;
   }
 
-  textarea {
+  div#saisie {
     /* Saisie */
 
     /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 16px;
     gap: 10px;
 
     width: 585px;
@@ -211,8 +210,9 @@
     /* Bordure */
 
     box-sizing: border-box;
+    margin: 0;
 
-    width: 585px;
+    width: 792px;
     height: 0px;
 
     /* light/border/plain-blue-france */
