@@ -1,15 +1,22 @@
 <script lang="ts">
 </script>
 
-<nav>
-  <img src="logo-republique-fr.svg" alt="Logo de la République Française" />
-  <ul>
-    <li>Notre mission</li>
-    <li>Contact</li>
-  </ul>
-</nav>
+<div>
+  <nav>
+    <img src="logo-republique-fr.svg" alt="Logo de la République Française" />
+    <ul>
+      <li>Notre mission</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+</div>
 
 <style>
+  div {
+    /* light/border/default-grey */
+    border-bottom: 1px solid #e5e5e5;
+  }
+
   /* 📁 Contenant technique - En-tête */
   nav {
     /* Auto layout */
@@ -34,4 +41,5 @@
   ul {
     list-style-image: url("picto-fleche-droite.svg");
   }
+
 </style>
